@@ -1,5 +1,7 @@
 # 四十八个名字 · 以名会友
 
+**在线游玩：[点击进入游戏](https://carsarfrye.github.io/name-tournament/)**
+
 基于用户提供的48个名字名单构建的本地网页对战游戏。支持手动出牌、自动演赛、随机分组、小组循环赛与双败淘汰赛。每场固定进行三局，双方逐局得分累加决定胜者。手动模式自动完成 NPC 对局，只停在玩家需要出牌的局；自动演赛优先播放玩家的具体对局。玩家淘汰后赛程仍继续推演，并在横向赛程树中展示完整结果。
 
 ## 本地运行
@@ -23,7 +25,7 @@ npm run preview
 
 ## 发布到 GitHub Pages
 
-项目已包含 GitHub Actions 工作流。将此目录推送到 GitHub 上名为 `name-tournament` 的公开仓库，进入仓库的 **Settings → Pages** 并将来源设为 **GitHub Actions**。之后推送到 `main` 分支会自动构建和发布。
+项目已发布到 `CarsarFrye/name-tournament` 公开仓库，Pages 来源已设为 **GitHub Actions**。之后推送到 `main` 分支会自动构建和更新在线游戏，可在仓库的 **Actions** 页面查看发布结果。
 
 GitHub Pages 的站点公开可见；仓库只应包含这个游戏项目，不要把工作目录中的其他文件提交进去。
 
